@@ -31,7 +31,7 @@ setuptools.setup(
         "Pillow>=5.2.0",
         "opencv-python>=4.5.5.64",
         "tensorflow-cpu>=1.9.0",
-        "keras>=2.2.0,
+        "keras>=2.2.0",
         "Flask>=1.1.2",
         "mtcnn>=0.1.0",
         "git+https://github.com/struckchure/retinaface@master#egg=retina-face",
