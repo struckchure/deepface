@@ -3,8 +3,6 @@ import setuptools
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
-with open("requirements.txt", "r", encoding="utf-8") as f:
-    requirements = f.read().split("\n")
 
 setuptools.setup(
     name="deepface",
@@ -24,6 +22,5 @@ setuptools.setup(
     entry_points={
         "console_scripts": ["deepface = deepface.DeepFace:cli"],
     },
-    python_requires=">=3.5.5",
-    install_requires=requirements,
+    python_requires=">=3.5.5"
 )
